@@ -1,0 +1,19 @@
+#define _CRT_SECURE_NO_WARNINGS
+#include<stdio.h>
+ int main()
+{
+	int input = 0;
+	printf("是否考研（1/0）");
+	scanf("%d", &input);
+
+	if (input == 1)
+	{
+		printf("好孩子\n");
+	}
+	else
+	{
+		printf("坏孩子\n");
+	}
+	return 0;
+
+}
